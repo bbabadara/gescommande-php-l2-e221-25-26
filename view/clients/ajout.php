@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -24,6 +25,9 @@
       </div>
     </div>
   </nav>
+=======
+
+>>>>>>> 2c7bb97ccc03c9a1f1dac46979945e7d16bf9d4b
 
   <!-- En-tête -->
   <header class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 mt-8">
@@ -84,5 +88,9 @@
     </form>
   </section>
 
+<<<<<<< HEAD
 </body>
 </html>
+=======
+
+>>>>>>> 2c7bb97ccc03c9a1f1dac46979945e7d16bf9d4b
