@@ -1,5 +1,6 @@
 <?php
 require_once ROOT."/model/produitModel.php";
+auth();
 $liste=function(){
 $produits = getAllproduits();
 $total_produits=countTable("produit");

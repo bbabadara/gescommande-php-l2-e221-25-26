@@ -8,6 +8,9 @@ $logout=function(){
 };
 
 $login=function(){
+    if(isConnected()){
+        redirectTo("dashboard","index");
+    }
    $errors=[];
     if (isset($_POST["connect"])) {
         isEmpty("email",$_POST["email"],$errors,"Veuillez renseigner l'email");
