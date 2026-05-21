@@ -25,6 +25,12 @@
             <a href="<?=path("commande","liste")?>" class="px-3 py-2 rounded-md text-sm font-medium <?=$_REQUEST["controller"]=="commande"?"text-indigo-600 bg-indigo-50":"text-gray-600 hover:text-indigo-600 hover:bg-gray-100"?>">Commandes</a>
           </div>
         </div>
+        <div>
+          <p>Bonjour, <strong><?=$_SESSION["user"]["prenom"]?> <?=$_SESSION["user"]["nom"]?></strong></p>
+        </div>
+        <div class="flex items-center space-x-4">
+          <a href="<?=path("auth","logout")?>" class="px-3 py-2 rounded-md text-sm font-medium bg-red-600 text-white hover:text-indigo-600 hover:bg-gray-100">Deconnexion</a>
+        </div>
       </div>
     </div>
   </nav>

@@ -1,6 +1,9 @@
 <?php
 require_once ROOT."/model/authModel.php";
 $logout=function(){
+    session_unset();
+    session_destroy();
+    redirectTo("auth","login");
 
 };
 
